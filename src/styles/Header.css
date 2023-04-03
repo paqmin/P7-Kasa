@@ -1,0 +1,32 @@
+.k-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 45px 0 45px 0;
+}
+
+.k-header img {
+    color: #FF6060;
+    width: 210px;
+    height: 68px;
+
+}
+
+.k-menu ul {
+    color: #FF6060;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+
+.k-menu li {
+    padding-left: 32px;
+    font-size: 30px;
+    font-weight: 500;
+
+}
+
+.k-menu li a {
+    color: #FF6060;
+}

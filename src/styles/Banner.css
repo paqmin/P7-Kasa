@@ -1,0 +1,42 @@
+.k-banner {
+    border-radius: 25px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 255px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.back-banner {
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.k-banner .overlay-banner {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+}
+
+.txt-banner {
+    display: flex;
+    align-self: center;
+    box-sizing: inherit;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}

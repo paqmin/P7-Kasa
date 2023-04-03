@@ -1,0 +1,11 @@
+.Apropos {
+    margin-bottom: 6%;
+}
+
+.content-apropos {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 31px auto 31px auto;
+
+}

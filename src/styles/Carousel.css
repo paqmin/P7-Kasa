@@ -1,0 +1,46 @@
+.slider {
+    display: flex;
+    height: 415px;
+    margin: 2% 0;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+
+
+
+
+.vectorPrev {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    left: 2%;
+}
+
+.vectorNext {
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    right: 2%;
+}
+
+.images_appart {
+
+    border-radius: 25px;
+    width: 100%;
+}
+
+.numero_img_courante {
+    display: flex;
+    position: absolute;
+}
+
+.numero_img_courante:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 6px black);
+}

@@ -1,0 +1,48 @@
+.kasa-collapse {
+    margin-bottom: 31px;
+}
+
+.titre-collapse {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff6060;
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    position: relative;
+    color: white;
+    padding: 18px;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
+.active, .titre-collapse:hover {
+    background-color: #ff6060;
+}
+
+.fleche-up {
+    transform: rotate(180deg);
+    transition: all 300ms ease-in-out;
+}
+
+.fleche-down {
+    transform: rotate(0deg);
+    transition: all 300ms ease-in-out;
+
+}
+
+.description-collapse {
+    padding: 36px 27px 19px 18px;
+    min-height: 5%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    color: #ff6060;
+    font-size: 24px;
+    font-weight: 400;
+}

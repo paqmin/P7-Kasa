@@ -1,6 +1,6 @@
 import { homeList } from '../../datas/homeList'
 import '../../styles/Fiche_logement.css'
-import {React, useEffect, useState } from "react"
+import {React} from "react"
 import Collapse from '../../components/Collapse/Collapse';
 import NoteEtoile from '../../components/Note/Note';
 import Carousel from '../../components/Carousel/Carousel';
@@ -18,8 +18,7 @@ function Fiche() {
                     {item}
                 </li>
     )); ;
-    const etoiles = ficheLogement.rating;
-    console.log (ficheLogement);
+
     return (
       <div className='Fiche'>
             <section className='Carrousel-content'>

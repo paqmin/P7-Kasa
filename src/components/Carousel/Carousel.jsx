@@ -24,12 +24,10 @@ function Carrousel({slides}){
         <div className="slider">
         {/*boutons de navigation qui ne s'affichent qu'à partir de 2 images*/}
         
-        {SlidesLength > 1 && (<button className="vectorPrev">
-                                <img src={left} onClick={prevSlide} alt="fleche_gauche" />
-                            </button>)}
-        {SlidesLength > 1 && (<button className="vectorNext">
-                                <img src={right} onClick={nextSlide} alt="fleche_droite" />
-                             </button>)
+        {SlidesLength > 1 && (<img src={left} className="vectorPrev" onClick={prevSlide} alt="fleche_gauche" />
+                            )}
+        {SlidesLength > 1 && (<img src={right} className="vectorNext"  onClick={nextSlide} alt="fleche_droite" />
+                    )
         }
         {/*Affichage d'une image*/}
         {slides.map((slide, index) =>(

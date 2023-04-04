@@ -1,5 +1,10 @@
 .contenu {
-    margin: 40px 100px 0 100px;
+
+    /*max-width: 1640px;*/
+    min-height: auto;
+    margin: 40px auto 0 auto;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 main {

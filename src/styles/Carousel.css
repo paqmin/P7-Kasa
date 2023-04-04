@@ -1,42 +1,54 @@
 .slider {
-    display: flex;
+
     height: 415px;
     margin: 2% 0;
     position: relative;
-    width: 100%;
+    /*width: 100%;*/
     overflow: hidden;
     border-radius: 25px;
-    background-position: center;
-    background-size: cover;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
 }
 
-
-
-
-
+/*pourquoi on doit le définir 2x*/
 .vectorPrev {
-    display: flex;
-    z-index: 10;
+    cursor: pointer;
+    z-index: 1;
     position: absolute;
     left: 2%;
+
 }
 
 .vectorNext {
-    display: flex;
-    z-index: 10;
+    cursor: pointer;
+    z-index: 1;
     position: absolute;
     right: 2%;
+
 }
 
 .images_appart {
-
+    display: flex;
+    justify-content: center;
     border-radius: 25px;
     width: 100%;
+    transform: scale(1);
+
 }
 
+.images_appart img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.625rem;
+
+}
+
+
+
 .numero_img_courante {
-    display: flex;
+    z-index: 10;
     position: absolute;
 }
 

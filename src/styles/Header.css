@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
 
-    margin: 45px 0 45px 0;
+    margin-top: 40px;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .k-header img {
@@ -27,6 +29,11 @@
     font-size: 24px;
     font-weight: 500;
     color: #FF6060;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width : 768px) {

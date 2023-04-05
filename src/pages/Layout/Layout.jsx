@@ -5,14 +5,13 @@ import Footer from "../Layout/Footer";
 
 function Layout({children}) {
     return (
-        <main>
+      
        <div className="contenu">
             
-            <Header />
-            {children}
-            
+        <Header />
+            <main> {children}</main>
+       <Footer />
        </div>
-       <Footer /></main>
     );
 }
 

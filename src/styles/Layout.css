@@ -1,17 +1,16 @@
 .contenu {
-    min-height: auto;
-    margin: 40px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 40px;
     padding-left: 8%;
     padding-right: 8%;
 }
 
-main {
-    margin: 0;
-}
-
-@media only screen and (max-width : 768px) {
-    .contenu {
-        padding-left: 6%;
-        padding-right: 6%;
-    }
-}
+@media only screen and (max-width : 768px) {}

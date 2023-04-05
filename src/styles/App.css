@@ -3,6 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    min-height: 100%;
 }
 
 @import url('https://fonts.cdnfonts.com/css/montserrat');
@@ -17,6 +18,10 @@ body {
 .App {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-width: 300px;
     margin: 0;
+    min-height: auto;
+    height: 100vh;
+
 }

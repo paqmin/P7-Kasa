@@ -7,7 +7,7 @@
     flex-direction: row;
     background-color: #ff6060;
     border-radius: 5px;
-    height: 60px;
+    height: 47px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +37,7 @@
 }
 
 .description-collapse {
-    padding: 36px 27px 19px 18px;
+    padding: 3% 4%;
     min-height: 5%;
     overflow: hidden;
     background-color: #F7F7F7;
@@ -45,4 +45,21 @@
     color: #ff6060;
     font-size: 24px;
     font-weight: 400;
+    text-align: justify;
+}
+
+@media only screen and (max-width : 768px) {
+    .titre-collapse {
+        font-size: 13px;
+        height: 30px;
+    }
+
+    .titre-collapse img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .description-collapse {
+        font-size: 12px;
+    }
 }

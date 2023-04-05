@@ -9,3 +9,10 @@
     margin: 31px auto 31px auto;
 
 }
+
+@media only screen and (max-width : 768px) {
+    .content-apropos {
+        width: 100%;
+        margin: 0;
+    }
+}

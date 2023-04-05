@@ -11,10 +11,10 @@ function Header() {
             <img src={logo} alt='Kasa-logo' className='k-logo' />
            
             <nav className="k-menu">
-                <ul>
-                     <li><Link to="/accueil">Accueil</Link></li>
-                    <li><Link to="/a-propos">A propos</Link></li>
-                </ul>
+                
+                     <Link to="/accueil">Accueil</Link>
+                    <Link to="/a-propos">A Propos</Link>
+          
             </nav>
         </header>
     )

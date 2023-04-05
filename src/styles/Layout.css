@@ -1,6 +1,4 @@
 .contenu {
-
-    /*max-width: 1640px;*/
     min-height: auto;
     margin: 40px auto 0 auto;
     padding-left: 8%;
@@ -9,4 +7,11 @@
 
 main {
     margin: 0;
+}
+
+@media only screen and (max-width : 768px) {
+    .contenu {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
 }

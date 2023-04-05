@@ -1,32 +1,51 @@
 .k-header {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+
     margin: 45px 0 45px 0;
 }
 
 .k-header img {
+    display: flex;
+    align-items: flex-start;
     color: #FF6060;
-    width: 210px;
-    height: 68px;
+    width: 9rem;
 
 }
 
-.k-menu ul {
+.k-menu {
     color: #FF6060;
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     align-items: center;
 
 }
 
-.k-menu li {
-    padding-left: 32px;
-    font-size: 30px;
+.k-menu a {
+    padding-left: 3.5rem;
+    font-size: 24px;
     font-weight: 500;
-
+    color: #FF6060;
 }
 
-.k-menu li a {
-    color: #FF6060;
+@media only screen and (max-width : 768px) {
+    .k-header img {
+
+        width: 7rem;
+
+    }
+
+
+    .k-menu {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .k-menu a {
+        font-size: 12px;
+        padding-left: 0.8rem;
+
+    }
+
 }

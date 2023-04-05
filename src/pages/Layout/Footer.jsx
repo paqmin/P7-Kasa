@@ -9,7 +9,7 @@ function Footer() {
         <footer >
             <div className="footer-container">
                 <img src={logo} alt='Kasa-logo' className='k-logo-footer' />
-                <p> &copy; 2022 Kasa. Tous droits réservés</p>
+                <p> &copy; 2022 Kasa. All rights reserved</p>
             </div>
         </footer>
     )

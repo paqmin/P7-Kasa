@@ -60,3 +60,10 @@
 	top: 0;
 	left: 0;
 }
+
+@media only screen and (max-width : 768px) {
+	.card {
+
+		width: 100%;
+	}
+}

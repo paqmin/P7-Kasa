@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.Carrousel-content {}
+
 
 .Infos-content {
     display: flex;
@@ -65,7 +65,7 @@
 }
 
 .Proprio-note h2 {
-    font-size: 18px;
+    /*font-size: 18px;*/
     font-weight: 500;
     color: #FF6060;
 }
@@ -108,4 +108,27 @@
 
 .equipmentList {
     list-style: none;
+}
+
+@media only screen and (max-width : 768px) {
+    .Infos-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Collapse-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .Proprio-note {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+    }
 }

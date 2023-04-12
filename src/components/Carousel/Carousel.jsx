@@ -21,17 +21,19 @@ function Carrousel({slides}){
       };
     
     return(
-        <div className="slider">
-        {/*boutons de navigation qui ne s'affichent qu'à partir de 2 images*/}
+        <section className='Carrousel-content'>
+             {/*boutons de navigation qui ne s'affichent qu'à partir de 2 images*/}
         
         {SlidesLength > 1 && (<img src={left} className="vectorPrev" onClick={prevSlide} alt="fleche_gauche" />
                             )}
         {SlidesLength > 1 && (<img src={right} className="vectorNext"  onClick={nextSlide} alt="fleche_droite" />
                     )
         }
+        
+       
         {/*Affichage d'une image*/}
         {slides.map((slide, index) =>(
-        <div key={index} className="images_appart">
+        <div key={index} className="slider">
             {index === current && <img src={slide} alt="Photo_appart"/>} {/*Affichage d'une image*/}
             {index === current && (<span className="numero_img_courante"> {/*Affichage numérotation*/}
                                      {current + 1}/{SlidesLength}
@@ -40,7 +42,8 @@ function Carrousel({slides}){
         </div>
         
         ))}
-        </div>
+       
+        </section>
         );
 }
 export default Carrousel

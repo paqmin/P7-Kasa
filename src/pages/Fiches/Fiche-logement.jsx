@@ -21,9 +21,9 @@ function Fiche() {
 
     return (
       <div className='Fiche'>
-            <section className='Carrousel-content'>
-                <Carousel slides={ficheLogement.picture}/>
-            </section>
+           
+            <Carousel slides={ficheLogement.picture}/>
+            
             <section className='Infos-content'>
                 <div className='Titre-lieu'>
                     <h1>{ficheLogement.title}</h1>

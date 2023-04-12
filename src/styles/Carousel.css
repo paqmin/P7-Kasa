@@ -1,69 +1,74 @@
-.slider {
-
+.Carrousel-content {
+    display: flex;
+    position: relative;
+    width: 100%;
     height: 415px;
     margin: 2% 0;
-    position: relative;
-    max-width: 100%;
-    max-height: 100%;
     overflow: hidden;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
     justify-content: center;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+    align-items: center;
 }
 
-/*pourquoi on doit le définir 2x*/
+.slider {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
 .vectorPrev {
     cursor: pointer;
     z-index: 1;
     position: absolute;
-    left: 2%;
 
+    display: flex;
+    left: 2%;
 }
 
 .vectorNext {
+    display: flex;
+    right: 2%;
     cursor: pointer;
     z-index: 1;
     position: absolute;
-    right: 2%;
-
-}
-
-.images_appart {
-
-
-    width: 100%;
-    transform: scale(1);
 
 
 }
 
-.images_appart img {
+.slider img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     border-radius: 25px;
+    object-fit: cover;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
 
 }
 
 .numero_img_courante {
-    z-index: 1;
-    position: absolute;
-    bottom: 3%;
-    left: 50%;
     color: white;
     font-weight: 500;
     font-size: 1.7rem;
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 86%;
 }
 
 @media only screen and (max-width : 768px) {
-    .images_appart {
-        height: 100%;
+    .vectorNext {
+        height: 40px;
+        width: 23px;
     }
 
+    .vectorPrev {
+        height: 40px;
+        width: 23px;
+    }
 }

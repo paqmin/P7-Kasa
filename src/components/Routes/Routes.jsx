@@ -11,7 +11,7 @@ function RoutesPath() {
     return(
         <Router>
             <Layout>
-                    <Routes>
+                    <Routes basename={"/P7-Kasa"}>
                         <Route path="/accueil" element={<Accueil />} />
                         <Route path="/" element={<Accueil />} />
                         <Route path="/logement/:id" element={<Fiche />}/>

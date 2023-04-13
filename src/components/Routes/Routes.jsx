@@ -12,7 +12,7 @@ function RoutesPath() {
     return(
         <Router>
             <Layout>
-                    <Routes basename={"/P7-Kasa"}>
+                    <Routes>
                         <Route path="/accueil" element={<Accueil />} />
                         <Route path="/" element={<Navigate replace to="/accueil" />} />
                         <Route path="/logement/:id" element={<Fiche />}/>

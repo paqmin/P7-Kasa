@@ -1,40 +1,23 @@
-.k-home-card a {
-	text-decoration: none;
-	filter: saturate(1);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transform: scale(1);
-	transition-property: transform;
-	transition-duration: 0.4s;
-}
-
-.k-home-card a:hover {
-	filter: saturate(2);
-	border: #FF6060 solid;
-	border-radius: 10px;
-	transform: scale(1.05);
-}
-
 .k-home-card {
+	text-decoration: none;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-
-}
-
-.card {
-	display: flex;
+	/*justify-content: center;
+	align-items: center;*/
 	border-radius: 10px;
 	position: relative;
 	width: 340px;
 	height: 340px;
 	background: #FF6060;
 	overflow: hidden;
-
 }
 
-.card h3 {
+.k-home-card:hover {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 10px;
+}
+
+
+.k-home-card h3 {
 	color: #fff;
 	font-size: 18px;
 	font-weight: 500;
@@ -49,6 +32,17 @@
 	display: flex;
 	width: 100%;
 	object-fit: cover;
+	transform: scale(1);
+	transition: all 300ms ease-out;
+
+}
+
+.k-home-card img:hover {
+	display: flex;
+	width: 100%;
+	object-fit: cover;
+	transform: scale(1.1);
+	transition: all 300ms ease-out;
 
 }
 

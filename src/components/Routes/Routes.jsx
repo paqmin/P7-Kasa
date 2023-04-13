@@ -12,8 +12,8 @@ function RoutesPath() {
     return(
         <Router>
             <Layout>
-                    <Routes>
-                        <Route path="/accueil" element={<Accueil />} />
+                    <Routes >
+                        <Route path="/kasa/" element={<Accueil />} />
                         <Route path="/" element={<Navigate replace to="/accueil" />} />
                         <Route path="/logement/:id" element={<Fiche />}/>
                         <Route path="/a-propos" element={<Apropos />} />

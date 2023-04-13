@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/P7-Kasa/static/css/main.97e95fe0.css",
-    "main.js": "/P7-Kasa/static/js/main.ed3560ad.js",
-    "static/js/787.0ce615c0.chunk.js": "/P7-Kasa/static/js/787.0ce615c0.chunk.js",
-    "static/media/banner-ap.png": "/P7-Kasa/static/media/banner-ap.640955dab8c7bff25514.png",
-    "static/media/banner.png": "/P7-Kasa/static/media/banner.436892d1a6d8aa062e5c.png",
-    "static/media/logo-rose.svg": "/P7-Kasa/static/media/logo-rose.759702e80d2cca5e6d54b41ca6682c02.svg",
-    "index.html": "/P7-Kasa/index.html",
-    "static/media/etoileGrise.svg": "/P7-Kasa/static/media/etoileGrise.7b1cf41be9857723e46cc5ac9767477f.svg",
-    "static/media/etoileRose.svg": "/P7-Kasa/static/media/etoileRose.0f06c5fe88e8a65580e50cd9bcc5a769.svg",
-    "static/media/fleche.svg": "/P7-Kasa/static/media/fleche.2315f85335b3b6805ba7666d56cbc6aa.svg",
-    "static/media/VectorLeft.svg": "/P7-Kasa/static/media/VectorLeft.f114b3d36e56c8c217832ad98a63d472.svg",
-    "static/media/VectorRight.svg": "/P7-Kasa/static/media/VectorRight.88153a5d119c2744ffe34dca1ef843df.svg",
-    "main.97e95fe0.css.map": "/P7-Kasa/static/css/main.97e95fe0.css.map",
-    "main.ed3560ad.js.map": "/P7-Kasa/static/js/main.ed3560ad.js.map",
-    "787.0ce615c0.chunk.js.map": "/P7-Kasa/static/js/787.0ce615c0.chunk.js.map"
+    "main.css": "/kasa/static/css/main.97e95fe0.css",
+    "main.js": "/kasa/static/js/main.55385473.js",
+    "static/js/787.0ce615c0.chunk.js": "/kasa/static/js/787.0ce615c0.chunk.js",
+    "static/media/banner-ap.png": "/kasa/static/media/banner-ap.640955dab8c7bff25514.png",
+    "static/media/banner.png": "/kasa/static/media/banner.436892d1a6d8aa062e5c.png",
+    "static/media/logo-rose.svg": "/kasa/static/media/logo-rose.759702e80d2cca5e6d54b41ca6682c02.svg",
+    "index.html": "/kasa/index.html",
+    "static/media/etoileGrise.svg": "/kasa/static/media/etoileGrise.7b1cf41be9857723e46cc5ac9767477f.svg",
+    "static/media/etoileRose.svg": "/kasa/static/media/etoileRose.0f06c5fe88e8a65580e50cd9bcc5a769.svg",
+    "static/media/fleche.svg": "/kasa/static/media/fleche.2315f85335b3b6805ba7666d56cbc6aa.svg",
+    "static/media/VectorLeft.svg": "/kasa/static/media/VectorLeft.f114b3d36e56c8c217832ad98a63d472.svg",
+    "static/media/VectorRight.svg": "/kasa/static/media/VectorRight.88153a5d119c2744ffe34dca1ef843df.svg",
+    "main.97e95fe0.css.map": "/kasa/static/css/main.97e95fe0.css.map",
+    "main.55385473.js.map": "/kasa/static/js/main.55385473.js.map",
+    "787.0ce615c0.chunk.js.map": "/kasa/static/js/787.0ce615c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.97e95fe0.css",
-    "static/js/main.ed3560ad.js"
+    "static/js/main.55385473.js"
   ]
 }

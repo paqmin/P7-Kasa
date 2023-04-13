@@ -4,7 +4,7 @@ import {React} from "react"
 import Collapse from '../../components/Collapse/Collapse';
 import NoteEtoile from '../../components/Note/Note';
 import Carousel from '../../components/Carousel/Carousel';
-import { useParams } from "react-router-dom";
+import { useParams, Navigate  } from "react-router-dom";
 
 
 
@@ -13,15 +13,17 @@ function Fiche() {
     //Recuperation données du logement
     const id = useParams();
     const ficheLogement = homeList.find(logement => logement.id === id.id);
-    const equipmentList = ficheLogement.equipments.map((item, index) => (
+    const equipmentList = ficheLogement?.equipments.map((item, index) => (
                 <li key={index} className="equipmentList">
                     {item}
                 </li>
     )); ;
-
+   
     return (
+        <>
+        {ficheLogement ? (
       <div className='Fiche'>
-           
+        
             <Carousel slides={ficheLogement.picture}/>
             
             <section className='Infos-content'>
@@ -56,7 +58,10 @@ function Fiche() {
             </section>
         
       </div>
-    );
+      ) : (
+        <Navigate replace to="/*"/>
+      )}
+      </>)
 }
 
 export default Fiche;

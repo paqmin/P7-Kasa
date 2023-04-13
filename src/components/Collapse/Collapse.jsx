@@ -6,7 +6,6 @@ import fleche from '../../assets/fleche.svg'
 
 function Collapse(data){
     const [isOpen, setIsOpen] = useState(false)
-console.log(data.titre)
     return isOpen ?(
         <article className='kasa-collapse' >
             <button className="titre-collapse" onClick={() => setIsOpen(false)}>

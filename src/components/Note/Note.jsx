@@ -5,7 +5,6 @@ import EtoileGrise from "../../assets/etoileGrise.svg";
 
 function NoteEtoile (props) {
     let Etoiles = props.rating;
-console.log (Etoiles);
     const Score = [];
     const ScoreMax = 5;
 

@@ -34,15 +34,13 @@
 
 a:hover, a:visited, a:active {
     text-decoration: underline;
+    color: #FF6060;
 }
 
 @media only screen and (max-width : 768px) {
     .k-header img {
-
         width: 7rem;
-
     }
-
 
     .k-menu {
         font-size: 12px;
@@ -52,7 +50,6 @@ a:hover, a:visited, a:active {
     .k-menu a {
         font-size: 12px;
         padding-left: 0.8rem;
-
     }
 
 }

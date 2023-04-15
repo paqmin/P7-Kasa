@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: row;
     background-color: #ff6060;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 47px;
     width: 100%;
     justify-content: space-between;
@@ -19,6 +19,14 @@
     font-weight: 500;
 
 
+}
+
+.Fiche .titre-collapse {
+    font-size: 18px;
+}
+
+.Fiche .description-collapse {
+    font-size: 18px;
 }
 
 .active, .titre-collapse:hover {
@@ -60,6 +68,6 @@
     }
 
     .description-collapse {
-        /*  font-size: 12px;*/
+        font-size: 12px;
     }
 }

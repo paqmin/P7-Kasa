@@ -62,13 +62,19 @@
 }
 
 @media only screen and (max-width : 768px) {
-    .vectorNext {
-        height: 40px;
-        width: 23px;
+    .vectorNext, .vectorPrev {
+        height: 20px;
+        width: 11px;
     }
 
-    .vectorPrev {
-        height: 40px;
-        width: 23px;
+
+    .Carrousel-content {
+        height: 255px;
     }
+
+    .numero_img_courante {
+        font-size: 1rem;
+    }
+
+
 }

@@ -25,6 +25,7 @@
 	padding: 20px;
 	bottom: 0;
 	z-index: 3;
+
 }
 
 
@@ -47,17 +48,22 @@
 }
 
 .k-home-overlay {
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-	width: 100%;
+	background: linear-gradient(hsla(0, 0%, 100%, 0), rgba(0, 0, 0, .502));
+	border-radius: inherit;
 	height: 100%;
 	position: absolute;
 	top: 0;
-	left: 0;
+	width: 100%;
+
 }
 
 @media only screen and (max-width : 768px) {
 	.card {
 		width: 600px;
+	}
 
+	.k-home-card {
+		width: auto;
+		height: auto;
 	}
 }

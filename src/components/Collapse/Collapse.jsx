@@ -17,7 +17,6 @@ function Collapse(data){
     <article className='kasa-collapse' >
     <button className="titre-collapse" onClick={() => setIsOpen(true)}>
        {data.titre} <img className="fleche-down" src={fleche} alt="fleche" />
-    
     </button> </article>
     
     )

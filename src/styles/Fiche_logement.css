@@ -1,17 +1,22 @@
-.fiche {
+.Fiche {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-
-
 .Infos-content {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row;
     justify-content: space-between;
     margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.Infos-content h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
 }
 
 .Titre-lieu {
@@ -58,21 +63,24 @@
 
 .Proprio-note {
     display: flex;
-    flex-flow: column wrap;
-    gap: 23px;
+    flex-flow: column-reverse;
+    gap: 15px;
     justify-content: space-between;
 
+    align-items: flex-end;
 }
 
 .Proprio-note h2 {
-    /*font-size: 18px;*/
-    font-weight: 500;
-    color: #FF6060;
+
+    width: 93px;
+    height: 52px;
+    text-align: right;
 }
 
 .Proprio_card {
     display: flex;
     flex-flow: row;
+    justify-content: flex-end;
 }
 
 .Proprio_card img {
@@ -91,6 +99,7 @@
 .Stars {
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 
 }
 
@@ -99,7 +108,7 @@
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-between;
-    gap: 6%;
+    gap: 5%;
 }
 
 .description {
@@ -111,14 +120,30 @@
 }
 
 @media only screen and (max-width : 768px) {
+    .Titre-lieu {
+        gap: 10px;
+    }
+
+    .Titre-lieu h1 {
+        font-size: 18px;
+
+    }
+
+    .Titre-lieu h2 {
+        font-size: 14px;
+    }
+
     .Infos-content {
         display: flex;
         flex-direction: column;
+        margin-bottom: 15px;
+        width: 100%;
     }
 
     .Collapse-content {
         display: flex;
         flex-direction: column;
+
     }
 
     .description {
@@ -127,8 +152,55 @@
 
     .Proprio-note {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
         align-items: center;
+    }
 
+    .Proprio_card {
+        align-items: center;
+    }
+
+
+    .Tags {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        padding: 4px 20px;
+        border-radius: 5px;
+    }
+
+    .Collapse-content .titre-collapse {
+        font-size: 13px;
+        height: 30px;
+    }
+
+    .Collapse-content .titre-collapse img {
+        width: 16px;
+        height: 9px;
+    }
+
+    .Fiche .description-collapse {
+        font-size: 12px;
+    }
+
+    .Notes img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Stars {
+        gap: 7px;
+    }
+
+    .Proprio_card img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .Proprio_card h2 {
+        width: 52px;
+        height: 33px;
+        font-size: 12px;
     }
 }

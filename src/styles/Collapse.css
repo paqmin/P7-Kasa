@@ -57,10 +57,7 @@
 }
 
 @media only screen and (max-width : 768px) {
-    .titre-collapse {
-        /*font-size: 13px;
-        height: 30px;*/
-    }
+
 
     .titre-collapse img {
         width: 20px;

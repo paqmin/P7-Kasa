@@ -26,19 +26,19 @@ Quelques précisions sur les fonctionnalités du site :
 #### REACT
 
 Il est impératif d’utiliser ces éléments de React pour un code de qualité :
-● Découpage en composants modulaires et réutilisables ;
-● Un composant par fichier ;
-● Structure logique des différents fichiers ;
-● Utilisation des props entre les composants ;
-● Utilisation du state dans les composants quand c'est nécessaire ;
-● Gestion des événements ;
-● Listes : React permet de faire des choses vraiment intéressantes avec
+- Découpage en composants modulaires et réutilisables ;
+- Un composant par fichier ;
+- Structure logique des différents fichiers ;
+- Utilisation des props entre les composants ;
+- Utilisation du state dans les composants quand c'est nécessaire ;
+- Gestion des événements ;
+- Listes : React permet de faire des choses vraiment intéressantes avec
 les listes, en itérant dessus, par exemple avec map. Il faut les utiliser autant que possible.
 
 #### REACT ROUTER
 
-● Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.
-● Il existe une page par route.
+- Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.
+- Il existe une page par route.
 
 ### Langages utilisés :
 

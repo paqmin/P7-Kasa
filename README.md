@@ -1,6 +1,7 @@
 # Formation Développeur Web - Projet 7 - Kasa
 
-Ce projet est le projet final de la formation Développeur Web OPENCLASSROOMS
+Ce projet est le projet final de la formation Développeur Web OPENCLASSROOMS.
+Voici le lien vers la page : https://paqmin.github.io/kasa/#/accueil
 
 ## Création d'une application web de location immobilière avec React
 

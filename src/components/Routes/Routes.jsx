@@ -1,6 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { Navigate } from "react-router-dom";
+import { Routes, Route, Navigate, HashRouter } from 'react-router-dom'
 import Accueil from '../../pages/Accueil/Accueil'
 import Apropos from '../../pages/Apropos/Apropos'
 import Layout from '../../pages/Layout/Layout'
@@ -10,7 +9,7 @@ import Error from '../../pages/Error/Error'
 
 function RoutesPath() {
     return(
-        <Router>
+        <HashRouter>
             <Layout>
                     <Routes >
                         <Route path="/kasa/" element={<Navigate replace to="/accueil" />} />
@@ -21,7 +20,7 @@ function RoutesPath() {
                         <Route path="*" element={<Error />} />
                     </Routes>
 			</Layout>
-        </Router>
+        </HashRouter>
         );
 }
 

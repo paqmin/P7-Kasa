@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Formation Développeur Web - Projet 7 - Kasa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est le projet final de la formation Développeur Web OPENCLASSROOMS
 
-## Available Scripts
+## Création d'une application web de location immobilière avec React
 
-In the project directory, you can run:
+L'objectif de ce projet était de développer une application avec React.js, c'est à dire de créer les différents composants React nécessaires, les routes React Router en suivant les maquettes Figma, en important les données depuis un fichier JSON.
 
-### `npm start`
+### Contraintes fonctionnelles
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Quelques précisions sur les fonctionnalités du site :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Pour le défilement des photos dans la galerie (composant Gallery) :
 
-### `npm test`
+- Si l'utilisateur se trouve à la première image et qu'il clique sur "Image précédente", la galerie affiche la dernière image.
+- Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "Image suivante", la galerie affiche la première image.
+- S'il n'y a qu'une seule image, les boutons "Suivant" et "Précédent" n'apparaissent pas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.
+3. Collapse : Par défaut, les Collapses sont fermés à l'initialisation de la page.
+4. Si le Collapse est ouvert, le clic de l'utilisateur permet de le fermer.
+   Inversement, si le Collapse est fermé, un clic permet de l'ouvrir.
 
-### `npm run build`
+### Contraintes techniques
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### REACT
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Il est impératif d’utiliser ces éléments de React pour un code de qualité :
+● Découpage en composants modulaires et réutilisables ;
+● Un composant par fichier ;
+● Structure logique des différents fichiers ;
+● Utilisation des props entre les composants ;
+● Utilisation du state dans les composants quand c'est nécessaire ;
+● Gestion des événements ;
+● Listes : React permet de faire des choses vraiment intéressantes avec
+les listes, en itérant dessus, par exemple avec map. Il faut les utiliser autant que possible.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### REACT ROUTER
 
-### `npm run eject`
+● Les paramètres des routes sont gérés par React Router dans l'URL pour récupérer les informations de chaque logement.
+● Il existe une page par route.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Langages utilisés :
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+HTML5 / CSS3 / JavaScript / React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Compétences acquises
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Création d'une application complète avec React
+- Gérer les routes avec React Router

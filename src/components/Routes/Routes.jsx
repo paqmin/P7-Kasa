@@ -17,7 +17,7 @@ function RoutesPath() {
                         <Route path="/" element={<Navigate replace to="/accueil" />} />
                         <Route path="/logement/:id" element={<Fiche />}/>
                         <Route path="/a-propos" element={<Apropos />} />
-                        <Route path="/404" element={<Error />} />
+                        <Route path="*" element={<Error />} />
                     </Routes>
 			</Layout>
         </HashRouter>

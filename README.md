@@ -48,4 +48,4 @@ HTML5 / CSS3 / JavaScript / React
 ### Compétences acquises
 
 - Création d'une application complète avec React
-- Gérer les routes avec React Router
+- Gestion des routes avec React Router

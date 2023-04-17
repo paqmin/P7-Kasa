@@ -2,7 +2,7 @@ import React from 'react'
 import { Routes, Route, Navigate, HashRouter } from 'react-router-dom'
 import Accueil from '../../pages/Accueil/Accueil'
 import Apropos from '../../pages/Apropos/Apropos'
-import Layout from '../../pages/Layout/Layout'
+import Layout from '../../components/Layout/Layout'
 import Fiche from '../../pages/Fiches/Fiche-logement'
 import Error from '../../pages/Error/Error'
 

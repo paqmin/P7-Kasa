@@ -61,7 +61,7 @@ function Fiche() {
         
       </div>
       ) : (
-        <Navigate replace to="/*"/>
+        <Navigate replace to="/404"/>
       )}
       </>)
 }

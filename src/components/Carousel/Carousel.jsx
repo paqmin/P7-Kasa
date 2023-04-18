@@ -23,14 +23,9 @@ function Carrousel({slides}){
     return(
         <section className='Carrousel-content'>
              {/*boutons de navigation qui ne s'affichent qu'à partir de 2 images*/}
+        {SlidesLength > 1 && (<img src={left} className="vectorPrev" onClick={prevSlide} alt="fleche_gauche" />)}
+        {SlidesLength > 1 && (<img src={right} className="vectorNext"  onClick={nextSlide} alt="fleche_droite" />)}
         
-        {SlidesLength > 1 && (<img src={left} className="vectorPrev" onClick={prevSlide} alt="fleche_gauche" />
-                            )}
-        {SlidesLength > 1 && (<img src={right} className="vectorNext"  onClick={nextSlide} alt="fleche_droite" />
-                    )
-        }
-        
-       
         {/*Affichage d'une image*/}
         {slides.map((slide, index) =>(
         <div key={index} className="slider">
@@ -39,10 +34,8 @@ function Carrousel({slides}){
                                      {current + 1}/{SlidesLength}
 						            </span>
 			                        )}
-        </div>
-        
+        </div> 
         ))}
-       
         </section>
         );
 }

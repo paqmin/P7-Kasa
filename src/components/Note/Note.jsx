@@ -11,12 +11,9 @@ function NoteEtoile (props) {
         for (let i=0 ; i < ScoreMax; i++){
             if (i < Etoiles){
                 Score.push (<img key={i} src={EtoileRose} alt={`${props.rating}/5`}/>)
-                console.log (Score);
             }else {
                 Score.push (<img key={i} src={EtoileGrise} alt={`${props.rating}/5`}/>)
-                console.log (Score);
             }
-            
         }
 return <div className="Stars">{Score}</div>
 
